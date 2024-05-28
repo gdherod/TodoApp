@@ -1,7 +1,7 @@
 package com.example.todoapp
 
 import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
 
-class TodoApp : Application() {
-    /*TODO("Not yet implemented")*/
-}
+@HiltAndroidApp
+class TodoApp : Application()
